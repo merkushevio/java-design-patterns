@@ -5,10 +5,7 @@ folder: command
 permalink: /patterns/command/
 categories: Behavioral
 tags:
- - Java
- - Gang Of Four
- - Difficulty-Intermediate
- - Functional
+ - Gang of Four
 ---
 
 ## Also known as
@@ -19,6 +16,7 @@ Encapsulate a request as an object, thereby letting you
 parameterize clients with different requests, queue or log requests, and
 support undoable operations.
 
+## Class diagram
 ![alt text](./etc/command.png "Command")
 
 ## Applicability
@@ -36,10 +34,6 @@ Use the Command pattern when you want to
 * implement callback functionality
 * implement the undo functionality
 
-## Presentations
-
-* [Command Pattern](etc/presentation.html) 
-
 ## Real world examples
 
 * [java.lang.Runnable](http://docs.oracle.com/javase/8/docs/api/java/lang/Runnable.html)
@@ -49,4 +43,7 @@ Use the Command pattern when you want to
 
 ## Credits
 
-* [Design Patterns: Elements of Reusable Object-Oriented Software](http://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612)
+* [Design Patterns: Elements of Reusable Object-Oriented Software](https://www.amazon.com/gp/product/0201633612/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0201633612&linkCode=as2&tag=javadesignpat-20&linkId=675d49790ce11db99d90bde47f1aeb59)
+* [Head First Design Patterns: A Brain-Friendly Guide](https://www.amazon.com/gp/product/0596007124/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0596007124&linkCode=as2&tag=javadesignpat-20&linkId=6b8b6eea86021af6c8e3cd3fc382cb5b)
+* [Refactoring to Patterns](https://www.amazon.com/gp/product/0321213351/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0321213351&linkCode=as2&tag=javadesignpat-20&linkId=2a76fcb387234bc71b1c61150b3cc3a7)
+* [J2EE Design Patterns](https://www.amazon.com/gp/product/0596004273/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0596004273&linkCode=as2&tag=javadesignpat-20&linkId=f27d2644fbe5026ea448791a8ad09c94)

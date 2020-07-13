@@ -3,16 +3,16 @@ layout: pattern
 title: Data Access Object
 folder: dao
 permalink: /patterns/dao/
-categories: Persistence Tier
+categories: Architectural
 tags:
- - Java
- - Difficulty-Beginner
+ - Data access
 ---
 
 ## Intent
 Object provides an abstract interface to some type of database or
 other persistence mechanism.
 
+## Class diagram
 ![alt text](./etc/dao.png "Data Access Object")
 
 ## Applicability
@@ -23,4 +23,4 @@ Use the Data Access Object in any of the following situations
 
 ## Credits
 
-* [J2EE Design Patterns](http://www.amazon.com/J2EE-Design-Patterns-William-Crawford/dp/0596004273/ref=sr_1_2)
+* [J2EE Design Patterns](https://www.amazon.com/gp/product/0596004273/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0596004273&linkCode=as2&tag=javadesignpat-20&linkId=48d37c67fb3d845b802fa9b619ad8f31)
